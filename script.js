@@ -56,6 +56,7 @@ function playGame() {
         alert("you won the game")
     } else if (humanScore === computerScore) {
         console.log("its a tie");
+        alert("you lost the game")
     } else {
         console.log("you lost the game");
         alert("you lost the game")
